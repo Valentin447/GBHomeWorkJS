@@ -11,5 +11,14 @@
 // Необходимо также создать переменную admin и присвоить этой переменной значение из переменной name. 
 // Вывести значение переменной admin в консоль.
 
+const tCel = 27;
+const tFr = (9 / 5) * tCel + 32;
+console.log(`Целсия: ${tCel}; Фаренгейта: ${tFr}`);
+
+
+const name = "Валентин";
+const admin = name;
+console.log(admin);
+
 
 
